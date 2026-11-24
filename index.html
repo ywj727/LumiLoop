@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Discover LumiLoop crystal charms for bags, keys and everyday accessories.">
+  <title>LumiLoop | Crystal Charms</title>
+  <meta name="theme-color" content="#211824">
+  <link rel="icon" type="image/svg+xml" href="assets/lumiloop-icon.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/lumiloop-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;650;700;750&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content"><span data-i18n="Skip to content">Skip to content</span></a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-layout">
+      <a class="wordmark" href="#home" aria-label="LumiLoop home" data-i18n-aria-label="LumiLoop home"><span class="brand-mark" aria-hidden="true"></span>LumiLoop</a>
+      <details class="menu-directory" id="site-menu" open>
+        <summary><span data-i18n="Menu">Menu </span><span class="menu-symbol" aria-hidden="true"></span></summary>
+        <nav class="navigation" aria-label="Main navigation" data-i18n-aria-label="Main navigation">
+          <a href="#home" aria-current="location"><span class="nav-number">01</span><span class="nav-copy"><span data-i18n="Home">Home</span><small><span data-i18n="The collection at a glance">The collection at a glance</span></small></span></a>
+          <a href="#about"><span class="nav-number">02</span><span class="nav-copy"><span data-i18n="About">About</span><small><span data-i18n="How to style your charm">How to style your charm</span></small></span></a>
+          <a href="#products"><span class="nav-number">03</span><span class="nav-copy"><span data-i18n="Products">Products</span><small><span data-i18n="Discover the three shapes">Discover the three shapes</span></small></span></a>
+          <a href="#film"><span class="nav-number">04</span><span class="nav-copy"><span data-i18n="Film">Film</span><small><span data-i18n="A closer look in motion">A closer look in motion</span></small></span></a>
+          <a href="#contact"><span class="nav-number">05</span><span class="nav-copy"><span data-i18n="Contact">Contact</span><small><span data-i18n="Questions and suggestions">Questions and suggestions</span></small></span></a>
+        </nav>
+      </details>
+      <details class="display-settings" id="display-settings" hidden>
+        <summary aria-label="Language and display settings" title="Language and display settings" data-i18n-aria-label="Language and display settings" data-i18n-title="Language and display settings"><span class="display-icon" aria-hidden="true">Aa</span><span id="language-code" aria-hidden="true">EN</span></summary><div class="settings-panel">
+          <p class="panel-title"><span data-i18n="Language &amp; display">Language &amp; display</span></p>
+          <div class="language-field"><label class="setting-label" for="language-select"><span data-i18n="Language">Language</span></label><div class="language-select-wrap"><select id="language-select" name="language"><option value="en" lang="en">English</option><option value="zh-CN" lang="zh-CN">简体中文</option><option value="ms" lang="ms">Bahasa Melayu</option></select></div></div><fieldset class="view-modes">
+            <legend><span data-i18n="Appearance">Appearance</span></legend>
+            <div class="mode-options">
+              <label class="mode-option"><input id="mode-light" type="radio" name="display-mode" value="light" checked><span><span data-i18n="Light">Light</span></span></label>
+              <label class="mode-option"><input id="mode-dark" type="radio" name="display-mode" value="dark"><span><span data-i18n="Dark">Dark</span></span></label>
+              <label class="mode-option"><input id="mode-comfort" type="radio" name="display-mode" value="comfort"><span><span data-i18n="Eye comfort">Eye comfort</span></span></label>
+            </div>
+          </fieldset>
+          <div class="setting-label" id="font-label"><span data-i18n="Text size">Text size </span><output id="font-value" aria-live="polite">100%</output></div>
+          <div class="font-buttons" role="group" aria-labelledby="font-label">
+            <button type="button" id="font-decrease" aria-label="Decrease text size" data-i18n-aria-label="Decrease text size">A−</button>
+            <button type="button" id="font-increase" aria-label="Increase text size" data-i18n-aria-label="Increase text size">A+</button>
+          </div>
+          <label class="setting-label" for="brightness"><span data-i18n="Brightness">Brightness </span><output id="brightness-value" for="brightness" aria-hidden="true">100%</output></label>
+          <input type="range" id="brightness" min="60" max="100" step="1" value="100">
+          <button class="settings-reset" type="button" id="display-reset"><span data-i18n="Restore defaults">Restore defaults</span></button>
+        </div>
+      </details>
+    </div>
+    <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="chapter hero" id="home" aria-labelledby="hero-heading" tabindex="-1">
+      <div class="container chapter-inner">
+        <div class="chapter-body" role="region" aria-labelledby="hero-heading"><div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow"><span data-i18n="Crystal charms">Crystal charms</span></p>
+            <h1 id="hero-heading"><span data-i18n="A little light.">A little light.</span><br><em><span data-i18n="A personal touch.">A personal touch.</span></em></h1>
+            <p class="hero-description"><span data-i18n="A clear drop, a rose heart, a lilac star. Small details for the things that go everywhere with you.">A clear drop, a rose heart, a lilac star. Small details for the things that go everywhere with you.</span></p>
+            <div class="hero-actions"><a class="button button-light" href="#products"><span data-i18n="Discover the charms">Discover the charms</span></a><a class="film-link" href="#film"><span class="play-mark" aria-hidden="true"></span><span data-i18n="Watch the film">Watch the film</span></a></div>
+          </div>
+          <figure class="hero-gallery">
+            <img class="hero-photo" data-fit-media src="assets/charm-collection.webp" alt="Clear, rose pink and lilac crystal charms arranged on a dark plum stone plinth" width="768" height="512" fetchpriority="high" data-i18n-alt="Clear, rose pink and lilac crystal charms arranged on a dark plum stone plinth">
+            <figcaption class="charm-key"><a href="#clear-drop"><span class="color-dot clear" aria-hidden="true"></span><span data-i18n="Clear Drop">Clear Drop</span></a><a href="#rose-heart"><span class="color-dot rose" aria-hidden="true"></span><span data-i18n="Rose Heart">Rose Heart</span></a><a href="#lilac-star"><span class="color-dot lilac" aria-hidden="true"></span><span data-i18n="Lilac Star">Lilac Star</span></a></figcaption>
+          </figure>
+        </div>
+        </div><div class="page-guide"><span class="scroll-hint" id="home-scroll-note"><span data-i18n="Scroll within this page to explore more">Scroll within this page to explore more</span></span><a class="page-label" href="#home" aria-label="Page 1 of 5, Home" data-i18n-aria-label="Page 1 of 5, Home"><span>01 / 05</span><span data-i18n="Home">Home</span></a><a class="next-page" href="#about"><span data-i18n="Next: About the charms">Next: About the charms</span></a></div>
+      </div>
+    </section>
+
+    <section class="chapter about-section" id="about" aria-labelledby="about-heading" tabindex="-1">
+      <div class="container chapter-inner">
+        <div class="chapter-body" role="region" aria-labelledby="about-heading"><div class="about-layout">
+          <div class="lifestyle-gallery">
+            <figure class="lifestyle-main"><img data-fit-media src="assets/on-a-bag.webp" alt="Lilac star charm clipped to a canvas tote strap ring" width="768" height="512" loading="lazy" data-i18n-alt="Lilac star charm clipped to a canvas tote strap ring"><figcaption><span data-i18n="A detail for your daily bag.">A detail for your daily bag.</span></figcaption></figure>
+            <img class="lifestyle-inset" src="assets/on-a-keyring.webp" alt="Rose heart crystal charm attached to a silver keyring" width="768" height="512" loading="lazy" data-i18n-alt="Rose heart crystal charm attached to a silver keyring">
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow"><span data-i18n="Designed to clip on">Designed to clip on</span></p>
+            <h2 id="about-heading"><span data-i18n="Make the everyday">Make the everyday</span><br><em><span data-i18n="feel like you.">feel like you.</span></em></h2>
+            <p><span data-i18n="Three crystal shapes and a silver-tone clasp. Clip your favorite onto a bag, keyring or zipper, and add a little light to your everyday.">Three crystal shapes and a silver-tone clasp. Clip your favorite onto a bag, keyring or zipper, and add a little light to your everyday.</span></p>
+            <ul class="use-list" aria-label="Ways to use a charm" data-i18n-aria-label="Ways to use a charm">
+              <li><img src="assets/icon-bag.png" width="56" height="56" alt="" loading="lazy"><div><h3><span data-i18n="On your bag">On your bag</span></h3><p><span data-i18n="Clip onto a strap ring.">Clip onto a strap ring.</span></p></div></li>
+              <li><img src="assets/icon-keys.png" width="56" height="56" alt="" loading="lazy"><div><h3><span data-i18n="With your keys">With your keys</span></h3><p><span data-i18n="Add a little color to your keys.">Add a little color to your keys.</span></p></div></li>
+              <li><img src="assets/icon-zipper.png" width="56" height="56" alt="" loading="lazy"><div><h3><span data-i18n="On a pencil case">On a pencil case</span></h3><p><span data-i18n="Attach to a zipper pull.">Attach to a zipper pull.</span></p></div></li>
+            </ul>
+          </div>
+        </div>
+        </div><div class="page-guide"><span class="scroll-hint" id="about-scroll-note"><span data-i18n="Scroll within this page to explore more">Scroll within this page to explore more</span></span><a class="page-label" href="#about" aria-label="Page 2 of 5, About" data-i18n-aria-label="Page 2 of 5, About"><span>02 / 05</span><span data-i18n="About">About</span></a><a class="next-page" href="#products"><span data-i18n="Next: Choose your shape">Next: Choose your shape</span></a></div>
+      </div>
+    </section>
+
+    <section class="chapter product-section" id="products" aria-labelledby="products-heading" tabindex="-1">
+      <div class="container chapter-inner">
+        <div class="chapter-body" role="region" aria-labelledby="products-heading"><div class="section-heading"><div><p class="eyebrow"><span data-i18n="The collection">The collection</span></p><h2 id="products-heading"><span data-i18n="Three shapes.">Three shapes.</span><br><em><span data-i18n="Your kind of sparkle.">Your kind of sparkle.</span></em></h2></div><p><span data-i18n="Explore the details of each charm.">Explore the details of each charm.</span></p></div>
+        <div class="product-grid">
+          <article class="product-card" id="clear-drop" tabindex="-1">
+            <img class="product-photo" data-fit-media src="assets/clear-drop.webp" alt="Clear faceted teardrop charm with a silver clasp on champagne stone" width="768" height="512" loading="lazy" data-i18n-alt="Clear faceted teardrop charm with a silver clasp on champagne stone">
+            <div class="product-copy"><p class="product-color"><span class="color-dot clear" aria-hidden="true"></span><span data-i18n="Crystal clear">Crystal clear</span></p><h3><span data-i18n="Clear Drop">Clear Drop</span></h3><p class="product-description"><span data-i18n="A faceted teardrop that catches the light.">A faceted teardrop that catches the light.</span></p><details class="product-details" name="charm-details"><summary><span data-i18n="View details">View details </span><span aria-hidden="true">+</span></summary><p class="detail-description"><span data-i18n="A faceted teardrop that catches the light.">A faceted teardrop that catches the light.</span></p><dl><div><dt><span data-i18n="Shape">Shape</span></dt><dd><span data-i18n="Teardrop">Teardrop</span></dd></div><div><dt><span data-i18n="Attachment">Attachment</span></dt><dd><span data-i18n="Silver-tone clasp">Silver-tone clasp</span></dd></div><div><dt><span data-i18n="Style it">Style it</span></dt><dd><span data-i18n="On a pouch zipper">On a pouch zipper</span></dd></div></dl></details><a class="product-inquiry" href="#contact" data-product="Clear Drop"><span data-i18n="Ask about this charm">Ask about this charm</span><span class="inquiry-arrow" aria-hidden="true">↗</span></a></div></article>
+          <article class="product-card" id="rose-heart" tabindex="-1">
+            <img class="product-photo" data-fit-media src="assets/rose-heart.webp" alt="Rose pink faceted crystal heart and silver clasp resting on satin" width="768" height="512" loading="lazy" data-i18n-alt="Rose pink faceted crystal heart and silver clasp resting on satin">
+            <div class="product-copy"><p class="product-color"><span class="color-dot rose" aria-hidden="true"></span><span data-i18n="Rose pink">Rose pink</span></p><h3><span data-i18n="Rose Heart">Rose Heart</span></h3><p class="product-description"><span data-i18n="A soft pink heart for a personal touch.">A soft pink heart for a personal touch.</span></p><details class="product-details" name="charm-details"><summary><span data-i18n="View details">View details </span><span aria-hidden="true">+</span></summary><p class="detail-description"><span data-i18n="A soft pink heart for a personal touch.">A soft pink heart for a personal touch.</span></p><dl><div><dt><span data-i18n="Shape">Shape</span></dt><dd><span data-i18n="Heart">Heart</span></dd></div><div><dt><span data-i18n="Attachment">Attachment</span></dt><dd><span data-i18n="Silver-tone clasp">Silver-tone clasp</span></dd></div><div><dt><span data-i18n="Style it">Style it</span></dt><dd><span data-i18n="On your keyring">On your keyring</span></dd></div></dl></details><a class="product-inquiry" href="#contact" data-product="Rose Heart"><span data-i18n="Ask about this charm">Ask about this charm</span><span class="inquiry-arrow" aria-hidden="true">↗</span></a></div></article>
+          <article class="product-card" id="lilac-star" tabindex="-1">
+            <img class="product-photo" data-fit-media src="assets/lilac-star.webp" alt="Pale lilac five-point crystal star and silver clasp on a mauve surface" width="768" height="512" loading="lazy" data-i18n-alt="Pale lilac five-point crystal star and silver clasp on a mauve surface">
+            <div class="product-copy"><p class="product-color"><span class="color-dot lilac" aria-hidden="true"></span><span data-i18n="Soft lilac">Soft lilac</span></p><h3><span data-i18n="Lilac Star">Lilac Star</span></h3><p class="product-description"><span data-i18n="A five-point star with a soft lilac glow.">A five-point star with a soft lilac glow.</span></p><details class="product-details" name="charm-details"><summary><span data-i18n="View details">View details </span><span aria-hidden="true">+</span></summary><p class="detail-description"><span data-i18n="A five-point star with a soft lilac glow.">A five-point star with a soft lilac glow.</span></p><dl><div><dt><span data-i18n="Shape">Shape</span></dt><dd><span data-i18n="Five-point star">Five-point star</span></dd></div><div><dt><span data-i18n="Attachment">Attachment</span></dt><dd><span data-i18n="Silver-tone clasp">Silver-tone clasp</span></dd></div><div><dt><span data-i18n="Style it">Style it</span></dt><dd><span data-i18n="On a tote strap ring">On a tote strap ring</span></dd></div></dl></details><a class="product-inquiry" href="#contact" data-product="Lilac Star"><span data-i18n="Ask about this charm">Ask about this charm</span><span class="inquiry-arrow" aria-hidden="true">↗</span></a></div></article>
+        </div>
+        </div><div class="page-guide"><span class="scroll-hint" id="products-scroll-note"><span data-i18n="Scroll within this page to explore more">Scroll within this page to explore more</span></span><a class="page-label" href="#products" aria-label="Page 3 of 5, Products" data-i18n-aria-label="Page 3 of 5, Products"><span>03 / 05</span><span data-i18n="Products">Products</span></a><a class="next-page" href="#film"><span data-i18n="Next: Watch the collection film">Next: Watch the collection film</span></a></div>
+      </div>
+    </section>
+
+    <section class="chapter film-section" id="film" aria-labelledby="film-heading" tabindex="-1">
+      <div class="container chapter-inner">
+        <div class="chapter-body" role="region" aria-labelledby="film-heading"><div class="section-heading"><div><p class="eyebrow"><span data-i18n="The collection film">The collection film</span></p><h2 id="film-heading"><span data-i18n="Follow the light.">Follow the light.</span></h2></div><p><span data-i18n="Get closer to the facets, color and silver details of all three charms.">Get closer to the facets, color and silver details of all three charms.</span></p></div>
+        <div class="film-player" id="film-player">
+          <div class="film-stage"><video id="collection-film" data-fit-media playsinline preload="metadata" poster="assets/film-poster.webp" width="1280" height="720" aria-label="LumiLoop crystal charms collection film" data-i18n-aria-label="LumiLoop crystal charms collection film"><source src="assets/lumiloop-film.mp4" type="video/mp4"><a href="assets/lumiloop-film.mp4"><span data-i18n="Download the collection film">Download the collection film</span></a></video></div>
+          <div class="film-controls" id="film-controls" role="group" aria-label="Video controls" data-i18n-aria-label="Video controls">
+            <div class="film-control-main">
+              <button class="film-control-button" id="film-play" type="button" aria-label="Play" data-i18n-aria-label="Play"><span id="film-play-label" data-i18n="Play">Play</span></button>
+              <input class="film-progress" id="film-progress" type="range" min="0" max="1000" step="1" value="0" aria-label="Video progress" data-i18n-aria-label="Video progress">
+              <output class="film-time" id="film-time">0:00 / 0:00</output>
+            </div>
+            <div class="film-control-options">
+              <div class="film-volume-group">
+                <button class="film-control-button" id="film-mute" type="button" aria-label="Mute" data-i18n-aria-label="Mute"><span id="film-mute-label" data-i18n="Mute">Mute</span></button>
+                <label for="film-volume" data-i18n="Volume">Volume</label>
+                <input id="film-volume" class="film-volume" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume" data-i18n-aria-label="Volume">
+              </div>
+              <div class="film-speed-group">
+                <label for="film-speed" data-i18n="Speed">Speed</label>
+                <select id="film-speed" aria-label="Playback speed" data-i18n-aria-label="Playback speed">
+                  <option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option>
+                </select>
+              </div>
+              <button class="film-control-button" id="film-pip" type="button" aria-label="Picture in picture" data-i18n-aria-label="Picture in picture"><span id="film-pip-label" data-i18n="Picture in picture">Picture in picture</span></button>
+              <button class="film-control-button" id="film-fullscreen" type="button" aria-label="Full screen" data-i18n-aria-label="Full screen"><span id="film-fullscreen-label" data-i18n="Full screen">Full screen</span></button>
+            </div>
+          </div>
+        </div>
+        <p class="film-caption"><span data-i18n="18-second collection film. Sound on for the music.">18-second collection film. Sound on for the music.</span></p>
+        </div><div class="page-guide"><span class="scroll-hint" id="film-scroll-note"><span data-i18n="Scroll within this page to explore more">Scroll within this page to explore more</span></span><a class="page-label" href="#film" aria-label="Page 4 of 5, Film" data-i18n-aria-label="Page 4 of 5, Film"><span>04 / 05</span><span data-i18n="Film">Film</span></a><a class="next-page" href="#contact"><span data-i18n="Next: Get in touch">Next: Get in touch</span></a></div>
+      </div>
+    </section>
+
+    <section class="chapter contact-section" id="contact" aria-labelledby="contact-heading" tabindex="-1">
+      <div class="container chapter-inner">
+        <div class="chapter-body" role="region" aria-labelledby="contact-heading"><div class="contact-layout">
+          <div class="contact-copy"><p class="eyebrow"><span data-i18n="Say hello">Say hello</span></p><h2 id="contact-heading"><span data-i18n="Which charm">Which charm</span><br><em><span data-i18n="feels like you?">feels like you?</span></em></h2><p><span data-i18n="Ask about a shape, share a styling idea or tell us what you would like to see next.">Ask about a shape, share a styling idea or tell us what you would like to see next.</span></p><figure class="contact-photo"><img src="assets/on-a-zipper.webp" alt="Clear Drop charm clipped to a lilac pencil case zipper" width="768" height="512" loading="lazy" data-i18n-alt="Clear Drop charm clipped to a lilac pencil case zipper"><figcaption><span data-i18n="A small touch, wherever you take it.">A small touch, wherever you take it.</span></figcaption></figure></div>
+          <form class="contact-form" id="contact-form" aria-describedby="form-note">
+            <div class="form-row"><label for="contact-name"><span data-i18n="Name">Name</span><input id="contact-name" name="name" type="text" autocomplete="name" maxlength="100" required placeholder="Your name" data-i18n-placeholder="Your name"></label><label for="contact-email"><span data-i18n="Email">Email</span><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="150" required placeholder="Your email address" data-i18n-placeholder="Your email address"></label></div>
+            <label for="contact-message"><span data-i18n="Message">Message</span><textarea id="contact-message" name="message" rows="6" maxlength="1000" required placeholder="Tell us what is on your mind" data-i18n-placeholder="Tell us what is on your mind"></textarea></label>
+            <div class="form-bottom"><p id="form-note"><span data-i18n="Demo form — no messages are sent.">Demo form — no messages are sent.</span></p><div class="form-actions"><button class="button button-outline" type="reset"><span data-i18n="Clear form">Clear form</span></button><button class="button button-dark" type="submit"><span data-i18n="Send message">Send message</span><span aria-hidden="true">↗</span></button></div></div>
+            <p id="form-status" class="form-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+        </div><div class="page-guide"><span class="scroll-hint" id="contact-scroll-note"><span data-i18n="Scroll within this page to explore more">Scroll within this page to explore more</span></span><a class="page-label" href="#contact" aria-label="Page 5 of 5, Contact" data-i18n-aria-label="Page 5 of 5, Contact"><span>05 / 05</span><span data-i18n="Contact">Contact</span></a><a class="next-page" href="#home"><span data-i18n="Return to the beginning">Return to the beginning</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"><div class="container footer-layout"><a class="wordmark" href="#home" aria-label="LumiLoop home" data-i18n-aria-label="LumiLoop home"><span class="brand-mark" aria-hidden="true"></span>LumiLoop</a><p><span data-i18n="Student website concept with AI-generated product imagery.">Student website concept with AI-generated product imagery.</span></p><a class="footer-link" href="#home"><span data-i18n="Back to top">Back to top</span></a></div></footer>
+  <script src="settings.js"></script>
+</body>
+</html>
